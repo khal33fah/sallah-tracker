@@ -1,0 +1,68 @@
+import { LockScreenReminder } from '../types';
+
+export const LOCKSCREEN_AYAHS: LockScreenReminder[] = [
+  {
+    id: 'purpose-dunya-1',
+    arabicAyah: 'وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ',
+    surahReference: 'Surah Adh-Dhariyat [51:56]',
+    englishTranslation: 'And I did not create the jinn and mankind except to worship Me.',
+    reflectionWriteup: 'This Dunya is a passing stop, not our permanent home. In the middle of all your notifications, work, and errands, pause and remember your ultimate purpose: you were created to know, love, and worship Allah.',
+    themeFocus: 'Purpose of Life',
+  },
+  {
+    id: 'remembrance-hearts-2',
+    arabicAyah: 'أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ',
+    surahReference: 'Surah Ar-Ra\'d [13:28]',
+    englishTranslation: 'Unquestionably, by the remembrance of Allah hearts find rest.',
+    reflectionWriteup: 'When anxiety, screens, and worldly noise overwhelm your soul, nothing will quiet the heart except turning back to Allah. Breathe, say SubhanAllah, and reclaim your tranquility.',
+    themeFocus: 'Remembrance of Allah',
+  },
+  {
+    id: 'testing-life-3',
+    arabicAyah: 'الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا',
+    surahReference: 'Surah Al-Mulk [67:2]',
+    englishTranslation: '[He] who created death and life to test you [as to] which of you is best in deed.',
+    reflectionWriteup: 'Every hour of this day is an open page in your test of life. It is not about accumulating worldly titles, but purifying your intentions and showing Allah the beauty of your character and prayer.',
+    themeFocus: 'The Reality of Dunya',
+  },
+  {
+    id: 'delusion-dunya-4',
+    arabicAyah: 'وَمَا هَٰذِهِ الْحَيَاةُ الدُّنْيَا إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ',
+    surahReference: 'Surah Al-Ankabut [29:64]',
+    englishTranslation: 'And this worldly life is not but diversion and amusement. And indeed, the home of the Hereafter - that is the [true] life, if only they knew.',
+    reflectionWriteup: 'Do not let the flashing lights of ephemeral screens steal your eternal destiny. Protect your five daily prayers; they are your anchor to the only reality that never fades.',
+    themeFocus: 'The Reality of Dunya',
+  },
+  {
+    id: 'nearness-allah-5',
+    arabicAyah: 'وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ',
+    surahReference: 'Surah Al-Baqarah [2:186]',
+    englishTranslation: 'And when My servants ask you concerning Me, indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.',
+    reflectionWriteup: 'You are never alone, never abandoned, and never unheard. Before you unlock your phone to seek validation or advice from people, lift your hands to Allah. He is closer to you than your jugular vein.',
+    themeFocus: 'Iman & Tawakkul',
+  },
+  {
+    id: 'remember-me-6',
+    arabicAyah: 'فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ',
+    surahReference: 'Surah Al-Baqarah [2:152]',
+    englishTranslation: 'So remember Me; I will remember you. And be grateful to Me and do not deny Me.',
+    reflectionWriteup: 'Think of the honor: when you utter Allah\'s name on your tongue, the King of the Heavens and the Earth mentions your name above the seven heavens. Guard your Salah and keep your tongue moist with His praise.',
+    themeFocus: 'Remembrance of Allah',
+  },
+  {
+    id: 'tawakkul-suffice-7',
+    arabicAyah: 'وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ',
+    surahReference: 'Surah At-Talaq [65:3]',
+    englishTranslation: 'And whoever relies upon Allah - then He is sufficient for him.',
+    reflectionWriteup: 'Release the heavy weight of tomorrow\'s worries. Do your best, pray with presence of mind, and place your absolute trust in Al-Wakeel (The Ultimate Disposer of Affairs). He will never fail you.',
+    themeFocus: 'Iman & Tawakkul',
+  },
+  {
+    id: 'soul-peace-8',
+    arabicAyah: 'يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً',
+    surahReference: 'Surah Al-Fajr [89:27-28]',
+    englishTranslation: '[To the righteous it will be said], "O reassured soul, return to your Lord, well-pleased and pleasing [to Him]."',
+    reflectionWriteup: 'Live each day so that when your final call comes, your soul departs in serene tranquility, pleased with Allah\'s decree and welcomed into His eternal gardens.',
+    themeFocus: 'Purpose of Life',
+  },
+];

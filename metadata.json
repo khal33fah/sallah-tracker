@@ -1,0 +1,6 @@
+{
+  "name": "Salah Tracker & Prayer Mat Scanner",
+  "description": "Daily prayer times tracker with camera prayer mat verification, distraction-free phone suspension, travel mode with 5-minute lock timer, Islamic library (Quran, Hadith, Books), and lock screen Ayah reminders.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
