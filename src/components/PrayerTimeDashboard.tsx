@@ -16,6 +16,7 @@ import {
 } from 'lucide-react';
 import { PrayerName, PrayerTimeItem, PrayerLogRecord, TravelerConfig } from '../types';
 import { LocationConfig, DEFAULT_CITIES, getQiblaDirection } from '../utils/prayerTimes';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface PrayerTimeDashboardProps {
   prayerTimes: PrayerTimeItem[];
@@ -192,6 +193,9 @@ export const PrayerTimeDashboard: React.FC<PrayerTimeDashboardProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Progressive Web App (Normal App) Install Banner */}
+      <PWAInstallButton variant="banner" />
 
       {/* Traveler (Musafir) Status Alert & Action Bar */}
       <div className={`p-4 rounded-xl border transition-all ${

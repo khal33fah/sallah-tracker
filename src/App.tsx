@@ -20,6 +20,8 @@ import { LibraryModal } from './components/LibraryModal';
 import { LockScreenSimulator } from './components/LockScreenSimulator';
 import { TravelerSuspensionModal } from './components/TravelerSuspensionModal';
 import { QiblaCompassModal } from './components/QiblaCompassModal';
+import { PWAInstallButton } from './components/PWAInstallButton';
+import { OfflineIndicator } from './components/OfflineIndicator';
 
 export default function App() {
   // 1. Location state (Default to Mecca / or first city)
@@ -221,9 +223,15 @@ export default function App() {
             >
               <Compass className="w-4 h-4" />
             </button>
+
+            {/* PWA Install Button */}
+            <PWAInstallButton variant="compact" />
           </div>
         </div>
       </header>
+
+      {/* Offline Status Indicator (Shows banner when disconnected from network) */}
+      <OfflineIndicator />
 
       {/* Main Content Area */}
       <main className="flex-1">
